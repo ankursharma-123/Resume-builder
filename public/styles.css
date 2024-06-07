@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&family=Poppins:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-family: "Playfair Display", serif;
+  }
+  body {
+    background-color: #e4f0ee;
+    background-image: url("https://www.transparenttextures.com/patterns/ag-square.png");
+
+   
+    padding: 0 16px;
+  }
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.info{
+    margin-top: 10px;
+    background-color: white;
+    padding: 20px;
+    display: grid;
+    width: 700px;
+    border-radius: 5px;
+}  
+input {
+  margin-top: 2px;
+  margin-left: 20px;
+  width: 250px;
+  height: 30px;
+  text-decoration: none;
+  border-style:none;
+  
+}
+textarea:focus, input:focus{
+  outline: none;
+}
+hr{
+  margin-top: 10px;
+   border: 1px solid black;
+}
+
+.education{
+  display: block;
+}
+.education-input{
+  display: flex;
+  gap: 5px;
+  
+}
+.skill-input{
+  display: flex;
+  gap: 5px;
+  
+}
+.project-input{
+  display: flex;
+  gap: 5px;
+  
+}
+.skill{
+  display: flex;
+  
+}
+.logo img{
+  width: 70px;
+  
+}
+.nav-bar{
+  
+  margin: 10px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+#btn-resume{
+  
+   width: 200px;
+   height: 50px;
+   border-radius: 5rem;
+   color: white;
+   background-color:black;
+}
+#btn-resume:hover{
+  color: black;
+  background-color: white;
+}
+.landing-page{
+  
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.heading{
+  display: flex;
+  justify-content: space-between;
+}
+.add-btn{
+  height: 30px;
+  padding: 4px;
+  border-radius: 10px;
+}
